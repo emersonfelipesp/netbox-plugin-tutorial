@@ -1,8 +1,8 @@
-# NetBox Plugin Development Tutorial
+# Tutorial para Desenvolvimento de Plugins
 
-This guide seeks to demonstrate the process of developing a custom plugin for NetBox v3.2 or later. By following each of the prescribed steps, the reader will create from scratch a simple plugin for managing access lists in NetBox, utilizing all major components of the NetBox plugin framework.
+Esse guia procura demonstrar o processo de desenvolvimento de um plugin customizado para o Netbox na versão v3.2 ou maior. Seguindo cada um dos passos descritos, o leitor será capaz de criar um plugin desde o início para o gerenciamento de Listas de Acesso (ACLs) no Netbox, utilizando a maioria dos componentes do framework de plugins do Netbox.
 
-A completed copy of the demo plugin created in this tutorial is available in the [`netbox-plugin-demo`](https://github.com/netbox-community/netbox-plugin-demo) repository for reference. For your convenience, the completed code corresponding to each step in the tutorial exists as a named branch in the demo repo. For example, if you want to start fresh on step 5, simply check out the `step04-forms` branch.
+Uma cópia completa do plugin demo criado neste tutorial está disponível no repositório [`netbox-plugin-demo`](https://github.com/netbox-community/netbox-plugin-demo) para ser utilizado de referência. Para a sua conveniência, o código completo correspondente à cada passo do tutorial está salvo como em uma branch específica no repositório demo. Por exemplo, se você quer começar do passo 05, basta mudar para a branch `step04-forms` realizando o checkout.
 
 ### Prerequisites
 
